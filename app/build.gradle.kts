@@ -7,6 +7,10 @@ android {
     namespace = "com.example.icebreaker_akhila"
     compileSdk = 34
 
+    buildFeatures{
+        viewBinding= true
+    }
+
     defaultConfig {
         applicationId = "com.example.icebreaker_akhila"
         minSdk = 30
