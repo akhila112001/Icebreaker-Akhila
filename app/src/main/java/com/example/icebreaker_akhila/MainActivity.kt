@@ -29,6 +29,21 @@ class MainActivity : AppCompatActivity() {
 
         }
     }
+    private fun getQuestionsFromFirebase(){
+        db.collection("Questions")
+            .get()
+            .addOnSuccessListener { result ->
+                questionBank = mutableListOf()
+                for(document in result){
+                    val question = document.toObject(Questions::class.java)
+                    questionBank!!.add(question)
+                    Log.d(TAG,"$question")
+                }
+            }
+            .addOnFailureListener{ e ->
+                Log.w(TAG,"error", e)
+            }
+    }
     private fun writeStudentToFirebase(){
         val firstName = binding.txtFirstName.text
         val lastName = binding.txtLastName.text
