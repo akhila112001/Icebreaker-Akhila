@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "699116225021",
+    "project_id": "icebreaker-akhila",
+    "storage_bucket": "icebreaker-akhila.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699116225021:android:1fe4c74c1e74facedc9994",
+        "android_client_info": {
+          "package_name": "com.example.icebreaker_akhila"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC72C0KFSs5-a_drkNLK560aCvGpl15sRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
