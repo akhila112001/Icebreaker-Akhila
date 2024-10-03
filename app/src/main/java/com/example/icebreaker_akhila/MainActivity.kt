@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnSubmit.setOnClickListener{
             binding.txtQuestion.text = ""
-        
+
         }
     }
 }
